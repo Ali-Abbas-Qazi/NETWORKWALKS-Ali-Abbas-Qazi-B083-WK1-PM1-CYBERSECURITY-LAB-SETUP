@@ -2,13 +2,8 @@
 
 # 🔐 Cybersecurity Lab Environment Setup
 
-</div>
-
-<div align="center">
-
 **Building an isolated virtual lab for penetration testing and ethical hacking practice**
 
-</div>
 </div>
 
 <p align="center">
@@ -21,8 +16,6 @@
   <img src="https://img.shields.io/badge/Skill-Virtualization-404040?style=flat-square&labelColor=C00000" />
 </p>
 
----
-
 ## 📌 Project Overview
 
 This project focuses on designing and deploying a **virtual cybersecurity and penetration-testing laboratory** utilizing VirtualBox and Kali Linux. 
@@ -30,8 +23,6 @@ This project focuses on designing and deploying a **virtual cybersecurity and pe
 The primary purpose of this lab is to establish a secure, isolated, and controlled environment. This allows for the safe execution of network reconnaissance, vulnerability assessments, and ethical hacking practices without risking external networks. 
 
 By configuring this lab on a private NAT network, the foundation is set to seamlessly integrate additional vulnerable target machines in the future, providing a comprehensive sandbox for ongoing security testing.
-
----
 
 ## 🎯 Objectives
 
@@ -45,8 +36,6 @@ The main objectives achieved in this project include:
 - Resolving network connectivity and DNS resolution issues within the VM.
 - Capturing a clean baseline snapshot of the VM for safe state-recovery.
 
----
-
 ## 🛡️ Purpose of the Lab
 
 This laboratory provides an isolated sandbox intended strictly for educational security research. It facilitates practical, hands-on experience in:
@@ -58,8 +47,6 @@ This laboratory provides an isolated sandbox intended strictly for educational s
 - Testing open-source cybersecurity tools
 
 ⚠️ **Important:** This laboratory is intended for authorized security testing only. Tools and techniques practiced here must never be deployed against unauthorized external systems or networks.
-
----
 
 ## ⚙️ Lab Configuration
 
@@ -75,8 +62,6 @@ This laboratory provides an isolated sandbox intended strictly for educational s
 | 🐧 Kali IP Address  | 10.0.0.2/24       |
 | 🌍 Connectivity     | Full Internet Access |
 
----
-
 # 🪜 Lab Setup Procedure
 
 ## Step 1. Install 7-Zip
@@ -85,7 +70,6 @@ To ensure seamless extraction of compressed virtual machine images and deploymen
 
 <img width="833" height="920" alt="1 - 7-zip Install" src="https://github.com/user-attachments/assets/24e19c35-7a7b-4bde-a710-cb12edfa853f" />
 
-
 ---
 
 ## Step 2. Install VirtualBox
@@ -93,7 +77,6 @@ To ensure seamless extraction of compressed virtual machine images and deploymen
 VirtualBox (v7.2.6) was downloaded from the official repository and installed as the foundational hypervisor to manage our virtualized environment.
 
 <img width="1097" height="790" alt="2 - Installed and set up VirtualBox" src="https://github.com/user-attachments/assets/3e53ed22-182f-45b6-b94e-92c187ae6652" />
-
 
 ---
 
@@ -108,7 +91,6 @@ A dedicated NAT Network was created within VirtualBox. A **NAT Network** was del
 - **IPv6:**         Disabled
 
 <img width="1097" height="790" alt="3 - VB NAT Network Configuration" src="https://github.com/user-attachments/assets/0799d525-cbea-4505-b110-5f15ce0f5daf" />
-
 
 ---
 
@@ -125,7 +107,6 @@ Several crucial VM settings were adjusted to optimize workflow and lab connectiv
 
 <img width="781" height="518" alt="4a - Updated Kali Linux NAT Setup " src="https://github.com/user-attachments/assets/2ec77785-50b1-469f-bb2e-148224bf2098" />
 
-
 ---
 
 ## Step 5. Configure the Kali Linux Network
@@ -140,11 +121,9 @@ To ensure the attacking machine is easily identifiable and consistent for future
 
 <img width="1380" height="864" alt="5 - Kali Linux IP Configuration Setup" src="https://github.com/user-attachments/assets/1d61cbc3-e300-4c71-bf62-628787ec9c8f" />
 
-
 The configuration was then verified via the terminal using the `ifconfig` command to confirm the interface registered the correct IP.
 
 <img width="1380" height="864" alt="5a - Checking IP Configuration" src="https://github.com/user-attachments/assets/37d9d2de-f822-4675-a9be-dbae75afdf3f" />
-
 
 ---
 
@@ -155,10 +134,6 @@ Once the system was fully configured, updated, and networked correctly, a Virtua
 This snapshot acts as a baseline. In the event that a future penetration test, misconfiguration, or system failure breaks the operating system, the VM can be instantly restored to this known-good state.
 
 <img width="1920" height="1032" alt="6 - Snapshot Set Up" src="https://github.com/user-attachments/assets/f4556314-c3ca-4c6e-a925-28ec0787a8f2" />
-
-
-
----
 
 # 🐞 Problems Encountered & Solutions
 
@@ -190,16 +165,12 @@ Setting up bidirectional clipboards, shared folders, and proper resource allocat
 ### 4. Baseline State Management (Snapshots)
 Taking a snapshot immediately following a successful configuration reinforced the best practice of establishing a "clean slate." Security testing often involves risky commands or malware handling; having a snapshot guarantees rapid recovery.
 
----
-
 # 🔗 Tools & Resources
 
 - **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
 - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
 - **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
 - **OBS Studio:** [https://obsproject.com/](https://obsproject.com/)
-
----
 
 # 👤 Author
 
@@ -212,16 +183,14 @@ GitHub: [https://github.com/Ali-Abbas-Qazi](https://github.com/Ali-Abbas-Qazi)
 <br>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/ali-abbas-qazi/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="[https://www.linkedin.com/in/ali-abbas-qazi/](https://www.linkedin.com/in/ali-abbas-qazi/)">
+    <img src="[https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/Ali-Abbas-Qazi">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="[https://github.com/Ali-Abbas-Qazi](https://github.com/Ali-Abbas-Qazi)">
+    <img src="[https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)" alt="GitHub" />
   </a>
 </div>
 
----
-
 ## 📌 Project Information
 
-**Program:** Cybersecurity | **Project:** Cybersecurity & Pentesting Lab Setup 
+**Program:** Cybersecurity | **Project:** Cybersecurity & Pentesting Lab Setup
