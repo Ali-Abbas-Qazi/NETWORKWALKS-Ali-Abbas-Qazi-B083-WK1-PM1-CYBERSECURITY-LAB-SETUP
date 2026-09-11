@@ -1,4 +1,8 @@
+<div align="center">
+
 # 🔐 Cybersecurity Lab Environment Setup
+
+</div>
 
 **Building an isolated virtual lab for penetration testing and ethical hacking practice**
 </div>
@@ -216,4 +220,4 @@ GitHub: [https://github.com/Ali-Abbas-Qazi](https://github.com/Ali-Abbas-Qazi)
 
 ## 📌 Project Information
 
-**Program:** Cybersecurity | **Project:** Cybersecurity & Pentesting Lab Setup | **Repository:** GitHub
+**Program:** Cybersecurity | **Project:** Cybersecurity & Pentesting Lab Setup 
