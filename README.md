@@ -1,5 +1,3 @@
-<img width="833" height="920" alt="1 - 7-zip Install" src="https://github.com/user-attachments/assets/f5391a94-857b-4041-8e70-bfca634be461" /><div align="center">
-
 # 🔐 Cybersecurity Lab Environment Setup
 
 **Building an isolated virtual lab for penetration testing and ethical hacking practice**
@@ -63,7 +61,7 @@ This laboratory provides an isolated sandbox intended strictly for educational s
 | 🧠 Host RAM         | 24 GB             |
 | ⚡ Processor         | Intel Core i7-13650HX |
 | 🧰 Hypervisor       | VirtualBox 7.2.6  |
-| 🐉 Security OS      | Kali Linux        |
+| 🐉 Security OS      | Kali Linux 2026.2 |
 | 🌐 Virtual Network  | NAT Network       |
 | 📡 Network Address  | 10.0.0.0/24       |
 | 🐧 Kali IP Address  | 10.0.0.2/24       |
@@ -198,7 +196,7 @@ Taking a snapshot immediately following a successful configuration reinforced th
 # 👤 Author
 
 **Ali Abbas Qazi**\
-Cybersecurity Student & Intern
+Cybersecurity Student
 
 LinkedIn: [https://www.linkedin.com/in/ali-abbas-qazi/](https://www.linkedin.com/in/ali-abbas-qazi/)\
 GitHub: [https://github.com/Ali-Abbas-Qazi](https://github.com/Ali-Abbas-Qazi)
